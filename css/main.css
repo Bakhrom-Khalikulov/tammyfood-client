@@ -427,7 +427,6 @@ a{
 
 
 
-
 /* ********** MTRUST STYLE STARTS ************ */
 .trust-section{
     /* padding-top: 96px;
@@ -502,7 +501,7 @@ a{
 .discount-section{
     padding-top: 160px;
     padding-bottom: 228px;
- 
+    
 }
 
 .discount-section__wrapper{
@@ -542,14 +541,109 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* ********** MAIN STYLES END ************ */
+
+
+
+/* ********** FOOTER STYLE STARTS ************ */
+.site-footer{
+    padding-top: 243px;
+    background-color: #232233;
+    padding-bottom: 54px;
+}
+
+.site-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.site-footer__logo{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.site-footer__desc{
+    width: 100%;
+    max-width: 331px;
+    margin-top: 0;
+    margin-bottom: 52px;
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--main-bg-color);
+}
+
+.site-footer__social:not(:last-child){
+    border-right: 1px solid #fff;
+    padding-right: 36px;
+    margin-right: 36px;
+    color: var(--main-bg-color);
+}
+
+.site-footer__social:last-child{
+    padding-right: 36px;
+    margin-right: 36px;
+    color: var(--main-bg-color);
+}
+
+.site-footer__social:active{
+    color: #FEB918;
+}
+
+
+.site-footer__subtitle{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: var(--main-bg-color);
+}
+
+.site-footer__quick-links{
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-bg-color);
+}
+
+.site-footer__input{
+    padding-top: 13px;
+    padding-right: 207px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+    background: var(--main-bg-color);
+    border-radius: 4px;
+}
+
+/* ********** FOOTER STYLE ENDS ************ */
+
+
+
+/* ********** CONTACT STYLE STARTS ************ */
+.site-footer__wrapper__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer__email{
+    width: 100%;
+    max-width: 1170px;
+    padding: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #232233;
+    background: #667085;
+    border-radius: 30px;
+}
+
+
+
+
+/* ********** CONTACT STYLE ENDS ************ */
