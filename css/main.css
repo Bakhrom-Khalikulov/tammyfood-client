@@ -322,6 +322,114 @@ a{
 /* ********** PROCESS STYLE ENDS ************ */
 
 
+/* ********** MENU STYLE STARTS ************ */
+.menu-section{
+    margin-bottom: 100px;
+}
+
+.menu-section__wrapper--start{
+    text-align: center;
+}
+
+.menu-section__title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--header-text-color);
+}
+
+.menu-section__desc{
+    width: 100%;
+    max-width: 465px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 83px;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--header-text3rd-color);
+}
+
+.menu-section__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1167px;
+}
+
+.menu-section__item{
+    margin-top: 0;
+    margin-bottom: 45px;
+    padding-left: 20px;
+    width: 100%;
+    max-width: 273px;
+    min-height: 319px;
+    border: 0.698848px solid rgba(112, 112, 112, 0.2);
+    border-radius: 10.4827px;
+}
+
+.menu-section__item:active{
+    background: #FFFFFF;
+    border: 1px solid #F9A755;
+    box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
+    border-radius: 10.4827px;
+}
+
+.menu-section__food{
+    padding-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+
+.menu-section__name{
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--header-text-color);
+}
+
+.menu-section__expl{
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--header-text3rd-color);
+}
+
+.menu-section__bottom{
+    display: flex;
+    align-items: center;
+}
+
+.menu-section__price{
+    margin-right: 125px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--header-text-color);
+}
+
+.menu-section__korzinka{
+    margin-right: 9px;
+}
+
+.menu-section__share{
+    margin-right: 9px;
+}
+
+
+
+
+
+/* ********** MENU STYLE ENDS ************ */
+
+
 
 
 
